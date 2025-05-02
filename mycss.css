@@ -1,0 +1,58 @@
+html,body{
+    height:100%;
+    color: green;
+    font-family: "Orbit", sans-serif;
+  }
+
+  aside#left{
+    float:left; 
+    width:15%; 
+    height:70%;
+  }
+  section{
+    float:left;
+    width:60%;
+    height:70%;
+  }
+  aside#right{
+    float:right;
+    width:22%;
+    height:70%;
+  }
+  footer{
+    clear:both;
+  }
+
+
+
+
+
+
+#right {
+  color: green;
+}
+
+#left {
+  color: green;
+}
+
+#top {
+  color: green;
+}
+
+#bottom {
+  color: green;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
