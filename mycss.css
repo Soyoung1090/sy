@@ -1,6 +1,6 @@
 html,body{
     height:100%;
-    color: green;
+    color: darkgreen;
     font-family: "Orbit", sans-serif;
   }
 
@@ -18,6 +18,7 @@ html,body{
     float:right;
     width:22%;
     height:70%;
+    text-align: center;
   }
   footer{
     clear:both;
@@ -27,21 +28,61 @@ html,body{
 
 
 
+  ul.nav {
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid darkgreen;
+    border-bottom: 1px solid darkgreen;
+    padding: 10px, 0;
+    margin-top: 10px, 0px;
+    padding: 12px;
+}
+
+ul.nav li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
 
 #right {
-  color: green;
+  color: black;
 }
 
 #left {
-  color: green;
+  color: darkgreen;
 }
 
+#left li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 5px;
+  margin: 10px 0px;
+}
+
+
 #top {
-  color: green;
+  color: darkgreen;
 }
 
 #bottom {
-  color: green;
+  color: darkgreen;
+  text-align: center;
+}
+
+#bottom li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 3px;
+  text-align: center;
 }
 
 a {
@@ -49,10 +90,10 @@ a {
 }
 
 a:link {
-  color: green;
+  color: darkgreen;
 }
 
 a:visited {
-  color: green;
+  color: darkgreen;
   text-decoration: none;
 }
